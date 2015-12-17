@@ -1,0 +1,270 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.wrapper {
+  margin: auto;
+  background: #f0efef;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.placeholder {
+  background: rgba(255, 0, 0, 0.5);
+  height: 150px;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 10px;
+}
+
+.header {
+  width: 960px;
+  height: 120px;
+  padding: 20px;
+  margin: auto;
+}
+
+.content {
+  height: 150px;
+  padding: 20px;
+  margin: 10px;
+}
+
+header {
+  width: 100%;
+  background: #033048;
+  margin-bottom: 10px;
+}
+
+.logo {
+  padding-top:20px;
+}
+
+nav {
+  float:right;
+  width: 60%;
+}
+
+.navitem {
+  padding: 30px;
+  font-family: 'open sans', sans-serif;
+  font-size: 20px;
+  font-weight:lighter;
+  color: #f9e42e;
+  float:right;
+}
+
+li.main_list {
+  display: inline;
+  padding-left: 32px;
+}
+
+li.one {
+  clear: both;
+}
+
+
+.logo {
+  width: 30%;
+  float: left;
+}
+
+.main {
+  float: left;
+  width:73%;
+  height: 1250px;
+}
+
+.main .content {
+  height: 570px;
+  border-bottom: 1px solid #666;
+}
+
+h1 {
+  font-family: 'open sans', sans-serif;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #033048;
+  line-height: 34px;
+}
+
+h2 {
+  font-family: 'open sans', sans-serif;
+  font-size: 22px;
+  font-weight: regular;
+  color: #033048;
+  line-height: 34px;
+}
+
+h3 {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+  color: #fff;
+  line-height: 34px;
+}
+
+p {
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #606161;
+  line-height: 26px;
+}
+
+p.about {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #033048;
+  line-height: 26px;
+}
+
+.image {
+  padding: 20px 0 20px 0;
+}
+
+a {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #033048;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  float: right;
+  padding: 20px 0 20px 0;
+}
+
+.sidebar {
+  width: 27%;
+  float:left;
+  padding:30px;
+}
+
+.sidebar .placeholder {
+  height: 1000px;
+}
+
+.category {
+  height: 250px;
+}
+
+
+a.side {
+  font-family: 'open sans', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #033048;
+  text-decoration: none;
+  float: left;
+  text-transform: capitalize;
+  padding: 5px 0 5px 0;
+
+}
+
+footer {
+  width: 100%;
+  float:left;
+}
+
+.social {
+  background: #121212;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.1 {
+  background: blue;
+  float: left;
+}
+
+.social_image {
+  padding: 30px;
+}
+
+.signup {
+  background: #f9e42e;
+  height: 110px;
+  padding: 30px;
+}
+
+.btn {
+  background: #033048;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 15%;
+  margin:auto;
+  text-align: center;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
