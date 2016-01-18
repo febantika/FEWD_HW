@@ -12,18 +12,25 @@
 		<link rel="stylesheet" href="css/style.css">
 
 	</head>
-	<body>
+	<body class = "wrapper">
+
 		<header>
-			<div class="title">
+			<div name="title" class="title">
 				<h1>CitiPix</h1>
 				<p>Your Cities, Your Pix</p>
 			</div>
 		</header>
 			<div class="container">
-				<form>
-					<input type="text" class="city-type" placeholder="Enter a city name...">
-					<input type="submit" value="Update" class="submit-btn">
-				</form>
+					<div class="entry">
+					<form>
+						<input type="text" class="city-type" placeholder="Enter a city name...">
+						<input type="submit" value="Update" class="submit-btn">
+					</form>
+				</div>
 			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+		<script src="js/index.js"></script>
+
 	</body>
 </html>
